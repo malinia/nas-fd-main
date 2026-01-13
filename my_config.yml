@@ -1,0 +1,29 @@
+# my_config.yaml
+# default: 
+mode: nnim #or manualnnim
+output_dir: models/
+training:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.001
+  weights_decay: 0.0004
+
+nni_ofct:
+  opt_mode:
+  alpha:
+  beta:
+
+ml_model:
+  model_type: mlp
+  neurons_number: 10
+  architecture: uniform
+
+data:
+  data_path: /data/dust/user/boukela/code/Pcode_dev/Data/
+  data_type: euc  #either euc  dtw glr rf ...
+
+device: cuda
+
+logging:
+  verbose: true
+  log_dir: logs/

@@ -1,0 +1,16 @@
+name: NASEnv_test
+channels:
+  - conda-forge
+dependencies:
+  - pip=24.3.1
+  - python=3.9.20
+  - pip:
+      - ipykernel==6.29.5
+      - ipython==8.18.1
+      - nni==3.0
+      - pillow==10.2.0
+      - pyyaml==6.0.2
+      - torch==2.5.1
+      - ptflops
+      - torchsummary
+      - torchinfo
